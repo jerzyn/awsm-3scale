@@ -17,7 +17,8 @@
   "devDependencies": {},
   "dependencies": {
     "jaws-core-js": "~0.0.2",
-    "3scale": "^0.5.1"
+    "3scale": "^0.5.1",
+    "bluebird":"*"
   },
   "main": "index.js",
   "scripts": {
