@@ -24,30 +24,5 @@
       "Runtime": "nodejs",
       "Timeout": 6
     }
-  },
-  "apiGateway": {
-    "deploy": false,
-    "cloudFormation": {
-      "Type": "AWS",
-      "Path": "3scale/auth",
-      "Method": "GET",
-      "AuthorizationType": "none",
-      "ApiKeyRequired": false,
-      "RequestTemplates": {},
-      "RequestParameters": {},
-      "Responses": {
-        "400": {
-          "statusCode": "400"
-        },
-        "default": {
-          "statusCode": "200",
-          "responseParameters": {},
-          "responseModels": {},
-          "responseTemplates": {
-            "application/json": ""
-          }
-        }
-      }
-    }
   }
 }
