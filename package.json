@@ -17,11 +17,9 @@
   "devDependencies": {},
   "dependencies": {
     "jaws-core-js": "~0.0.2",
-    "3scale": "^0.5.1",
-    "bluebird":"*"
+    "3scale": "^0.5.1"
   },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

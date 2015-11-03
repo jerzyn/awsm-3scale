@@ -4,10 +4,11 @@
   "location": "https://github.com/jerzyn/awsm-3scale",
   "author": "Andrzej Jarzyna <andrew.jarzyna@gmail.com",
   "description": "JAWS package/Lambda func. for integration with 3scale API Management platform",
-    "cloudFormation": {
-      "LambdaIamPolicyDocumentStatements": [],
-      "ApiGatewayIamPolicyDocumentStatements": [],
-      "Resources": {}
-    }
+  "resources":{
+     "cloudFormation": {
+       "LambdaIamPolicyDocumentStatements": [],
+       "ApiGatewayIamPolicyDocumentStatements": [],
+       "Resources": {}
+      }
   }
 }
