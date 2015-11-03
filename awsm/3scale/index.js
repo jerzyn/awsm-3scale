@@ -2,7 +2,7 @@
 /**
  * AWS Module: Action: Modularized Code
  */
- var authenticate = require('awsm-3scale').authenticate;
+ var threescale = require('awsm-3scale').authenticate;
 
 // Export For Lambda Handler
 module.exports.run = function(event, context, cb) {
@@ -18,7 +18,7 @@ function getMethodName(path, method) {
 var action = function(event, context) {
 	var method = getMethodName(event.resourcePath, event.httpMethod);
 	if (event.user_key) {
-    authenticate(event.user_key, method, function(err, res) {
+    threescale.authenticate(event.user_key, method, function(err, res) {
       if (err) {
           context.fail(err);
       } else {
