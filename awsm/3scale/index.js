@@ -2,7 +2,7 @@
 /**
  * AWS Module: Action: Modularized Code
  */
- var authenticate = require('3scale-auth').authenticate;
+ var authenticate = require('awsm-3scale').authenticate;
 
 // Export For Lambda Handler
 module.exports.run = function(event, context, cb) {
