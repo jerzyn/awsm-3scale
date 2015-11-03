@@ -4,7 +4,7 @@
       "PROVIDER_KEY",
       "SERVICE_ID"
     ],
-    "deploy": false,
+    "deploy": true,
     "package": {
       "optimize": {
         "builder": "browserify",
