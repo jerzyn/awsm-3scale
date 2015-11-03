@@ -7,7 +7,7 @@
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git://github.com/"
+    "url": "git://github.com/jerzyn/awsm-3scale.git"
   },
   "keywords": [
     "3scale",
@@ -20,6 +20,12 @@
     "3scale": "^0.5.1"
   },
   "main": "index.js",
-  "scripts": {
-  }
+  "scripts": {},
+  "directories": {
+    "test": "tests"
+  },
+  "bugs": {
+    "url": "https://github.com/jerzyn/awsm-3scale/issues"
+  },
+  "homepage": "https://github.com/jerzyn/awsm-3scale#readme"
 }
