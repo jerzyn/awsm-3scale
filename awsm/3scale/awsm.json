@@ -1,0 +1,23 @@
+{
+  "lambda": {
+    "envVars": [
+      "PROVIDER_KEY",
+      "SERVICE_ID"
+    ],
+    "deploy": true,
+    "package": {
+      "optimize": {
+        "builder": "browserify",
+        "minify": true
+      },
+      "excludePatterns": []
+    },
+    "cloudFormation": {
+      "Description": "",
+      "Handler": "aws_modules/awsm-3scale/3scale/handler.handler",
+      "MemorySize": 1024,
+      "Runtime": "nodejs",
+      "Timeout": 6
+    }
+  }
+}

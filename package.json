@@ -1,0 +1,35 @@
+{
+  "name": "awsm-3scale",
+  "version": "0.0.1",
+  "description": "A 3scale authentication module for Lambda Functions.",
+  "author": "Andrzej Jarzyna <andrew.jarzyna@gmail.com>",
+  "contributors": [
+    "Nicolas Grenie <nicolas@3sale.net>"
+  ],
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jerzyn/awsm-3scale.git"
+  },
+  "keywords": [
+    "3scale",
+    "API Management",
+    "Authentication"
+  ],
+  "devDependencies": {},
+  "dependencies": {
+    "jaws-core-js": "~0.0.2",
+    "q": "~1.4.1",
+    "xml2js":"*"
+  },
+  "main": "index.js",
+  "scripts": {},
+  "directories": {
+    "test": "tests"
+  },
+  "bugs": {
+    "url": "https://github.com/jerzyn/awsm-3scale/issues"
+  },
+  "homepage": "https://github.com/jerzyn/awsm-3scale#readme"
+}
