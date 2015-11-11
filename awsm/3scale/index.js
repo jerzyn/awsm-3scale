@@ -2,7 +2,8 @@
 /**
  * AWS Module: Action: Modularized Code
  */
- var threescale = require('awsm-3scale').threescale;
+
+var threescale = require('awsm-3scale').threescale;
 
 
 // Export For Lambda Handler
@@ -17,5 +18,4 @@ module.exports.run = function(event, context, cb) {
       context.fail('403, unauthorized');
     }
   });
-
 };
