@@ -3,10 +3,9 @@
   "version": "0.0.1",
   "description": "A 3scale authentication module for Lambda Functions.",
   "author": "Andrzej Jarzyna <andrew.jarzyna@gmail.com>",
-  "contributors": [{
-  	"name": "Nicolas Grenie",
-  	"email": "nicolas@3sale.net"
-  	}],
+  "contributors": [
+    "Nicolas Grenie <nicolas@3sale.net>"
+  ],
   "license": "MIT",
   "private": false,
   "repository": {
@@ -21,7 +20,8 @@
   "devDependencies": {},
   "dependencies": {
     "jaws-core-js": "~0.0.2",
-    "3scale": "^0.5.1"
+    "q": "~1.4.1",
+    "xml2js":"*"
   },
   "main": "index.js",
   "scripts": {},

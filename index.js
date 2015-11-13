@@ -1,5 +1,4 @@
 'use strict';
+var threescale = require('./lib/3scale-auth.js');
 
-var authenticate = require('./lib/3scale-auth.js');
-
-exports.authenticate = authenticate;
+exports.threescale = threescale;
