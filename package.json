@@ -20,8 +20,8 @@
   "devDependencies": {},
   "dependencies": {
     "jaws-core-js": "~0.0.2",
-    "bluebird": "*",
-    "node-fetch": "*"
+    "q": "~1.4.1",
+    "xml2js":"*"
   },
   "main": "index.js",
   "scripts": {},

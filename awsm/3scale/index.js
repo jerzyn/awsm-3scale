@@ -2,17 +2,20 @@
 /**
  * AWS Module: Action: Modularized Code
  */
- var threescale = require('awsm-3scale').authenticate;
+
+var threescale = require('awsm-3scale').threescale;
+
 
 // Export For Lambda Handler
 module.exports.run = function(event, context, cb) {
-  return cb(null, action(event, context));
-};
+  console.log(threescale);
 
-var action = function(event, context) {
-  if (threescale.authenticate(event.user_key)) {
-      context.succeed({"question": pickAQuestion(), "answer": pickAnAnswer()});
+  threescale.authenticate(event.user_key,function(err,res){
+    console.log(err,res);
+    if(res){
+      context.succeed({"message":"hello world"});
     } else {
       context.fail('403, unauthorized');
     }
+  });
 };
